@@ -13,21 +13,21 @@ public abstract class ProgramaLavado
         centrifugar();
     }
 
-    abstract void llenarAgua();
-    abstract void lavar();
-    abstract void enjuagar();
-    abstract void centrifugar();
+    protected abstract void llenarAgua();
+    protected abstract void lavar();
+    protected abstract void enjuagar();
+    protected abstract void centrifugar();
 
     //Como en todos es igual, no son abstract porque no requieren una reimplementacion
-    void cambiarAgua()
+    private void cambiarAgua()
     {
         System.out.println("Cambiando el agua...");
     }
-    void agregarEnjuague()
+    private void agregarEnjuague()
     {
         System.out.println("Agregando enjuague...");
     }
-    void agregarJabon()
+    private void agregarJabon()
     {
         System.out.println("Agregando jabon en polvo...");
     }
