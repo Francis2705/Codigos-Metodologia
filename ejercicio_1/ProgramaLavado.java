@@ -2,7 +2,7 @@ package ejercicio_1;
 
 public abstract class ProgramaLavado
 {
-    public void ejecutarPrograma() //Metodo plantillaaaasrgsg
+    public void ejecutarPrograma() //Metodo plantilla
     {
         llenarAgua();
         agregarJabon();
@@ -12,7 +12,6 @@ public abstract class ProgramaLavado
         enjuagar();
         centrifugar();
     }
-
 
     protected abstract void llenarAgua();
     protected abstract void lavar();
