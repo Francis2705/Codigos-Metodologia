@@ -2,7 +2,7 @@ package ejercicio_1;
 
 public abstract class ProgramaLavado
 {
-    public void ejecutarPrograma() //Metodo plantilla
+    public void ejecutarPrograma() //Metodo plantillaaaa
     {
         llenarAgua();
         agregarJabon();
