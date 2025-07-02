@@ -1,7 +1,7 @@
 package ejercicio_4;
 
-
-public class Main {
+public class Main
+{
     public static void main(String[] args)
     {
         Mate mate = new Mate();
@@ -14,7 +14,5 @@ public class Main {
         System.out.println("--------------- MATE -------------------");
 
         mate.preparar();
-
-        
     }
 }
